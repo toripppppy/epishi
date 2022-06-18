@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: linear-gradient(-15deg, rgba(229, 230, 231, 0.3), rgba(23, 23, 23, 0.8)), url(assets/images/epishi.png);
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #cad3d4;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 10px 6px rgba(0,0,0,0.2);
+}
+
+#title {
+    margin: 0;
+    padding: 15px;
+    border-left: 7px solid #222d31;
+}
+
+#subtitle {
+    margin: 38px 10px 0;
+    color: #323232;
+}
+
+main {
+    width: 500px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 200%;
+}
+
+#start {
+    justify-content:center;
+    align-items:center;
+    display: flex;
+}
+
+.button {
+    border: 0px none;
+    border-radius:30px;
+    background-color: #cad3d4;
+    padding: 10px 50px;
+}
+
+#amount {
+    color: #bbcccf;
+    margin-left: 20px;
+}
+
+#question {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
